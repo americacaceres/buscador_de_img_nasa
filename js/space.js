@@ -30,7 +30,7 @@ function showResults (array) {
   array.forEach(item => {  
     let imgUrl = item.links ? item.links[0].href : "placeholder.jpg";
     let description = item.data[0].description || "Sin descripción";
-  contenedor.innerHTML += ` <div class="card" style="width: 18rem;">
+  contenedor.innerHTML += ` <div class="card col-12 d-flex m-2 "   style="width: 18rem;" >
           <img src="${imgUrl}" class="card-img-top" alt="Imagen de NASA">
           <div class="card-body">
            <h5 class="card-title">${item.data[0].title}</h5>

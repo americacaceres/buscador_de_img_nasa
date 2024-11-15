@@ -5,7 +5,10 @@ main {
 
 
   #contenedor {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
 
+  .card {
+    overflow-y: scroll;
+    height: 25rem;
   }
