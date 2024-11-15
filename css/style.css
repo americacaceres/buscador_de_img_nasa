@@ -10,5 +10,5 @@ main {
 
   .card {
     overflow-y: scroll;
-    height: 25rem;
+    height: 20rem;
   }
